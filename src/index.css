@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #212127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li {
+    margin: 0 5px;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 15px;
+    transition: 0.2s;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover {
+    color: #212127;
+    background-color: #ffe00e;
+}
+
+.nav-bar ul li a.active {
+    color: #212127;
+    background-color: #ffe00e;
+}
+
+.nuevo-producto {
+    margin-left: 320px;
+    margin-top: 10px;
+}
